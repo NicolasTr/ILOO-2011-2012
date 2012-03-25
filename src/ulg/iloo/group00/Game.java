@@ -11,8 +11,8 @@ public class Game implements IGame {
     }
 
     @Override
-    public void play(Position position) {
-
+    public boolean play(Position position) {
+        return true;
     }
 
     @Override
@@ -28,6 +28,11 @@ public class Game implements IGame {
     @Override
     public int winner() {
         return 0;
+    }
+
+    @Override
+    public int getTurn() {
+        return IGame.BLACK;
     }
     
 }

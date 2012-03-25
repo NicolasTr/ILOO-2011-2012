@@ -9,9 +9,11 @@ public interface IGame {
     
     public void undo();
     
-    public void play(Position position);
+    public boolean play(Position position);
     
     public int getPositionValue(Position position);
+    
+    public int getTurn();
     
     public boolean isEnd();
     
