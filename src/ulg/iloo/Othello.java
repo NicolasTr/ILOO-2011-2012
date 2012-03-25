@@ -8,13 +8,16 @@ public class Othello {
             args = new String[]{
                 "ulg.iloo.group00.GUI",
                 "ulg.iloo.group00.Game",
+                "ulg.iloo.group00.ComputerPlayer",
                 "ulg.iloo.group00.ComputerPlayer"
             };
         }
 
         IGUI gui = (IGUI)Class.forName(args[0]).newInstance();
         gui.setGame((IGame)Class.forName(args[1]).newInstance());
-        gui.setComputerPlayer((IPlayer)Class.forName(args[2]).newInstance());
+        gui.setComputerPlayers(
+                (IPlayer)Class.forName(args[2]).newInstance(),
+                (IPlayer)Class.forName(args[3]).newInstance());
         
         gui.exec();
 
