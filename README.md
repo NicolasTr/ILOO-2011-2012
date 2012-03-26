@@ -6,7 +6,7 @@ Comment créer un dépôt git pour mon groupe?
 
 1. Créer un dépôt git privé sur assembla.com
 2. Cloner le dépôt
-3. Lancer la commande suivante "git add iloo git@github.com:NicolasTr/ILOO-2011-2012.git"
+3. Lancer la commande suivante "git remote add iloo git@github.com:NicolasTr/ILOO-2011-2012.git"
 
 Toutes les modifications se feront sur votre propre dépôt (pour faire un push, utiliser "push origin master")
 
