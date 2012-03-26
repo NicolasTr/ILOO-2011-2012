@@ -50,5 +50,5 @@ En cas de problème:
 [5]: http://dl.dropbox.com/u/14582957/iloo/05.png
 [6]: http://dl.dropbox.com/u/14582957/iloo/06.png
 [7]: http://http://www.assembla.com/
-[6]: http://dl.dropbox.com/u/14582957/iloo/08.png
+[8]: http://dl.dropbox.com/u/14582957/iloo/08.png
 
