@@ -4,7 +4,7 @@ README
 Comment créer un dépôt git pour mon groupe?
 -------------------------------------------
 
-1. Créer un dépôt git privé sur assembla.com
+1. [Créer un dépôt git privé][6] sur [assembla.com][7]
 2. Cloner le dépôt
 3. Lancer la commande suivante "git remote add iloo git@github.com:NicolasTr/ILOO-2011-2012.git"
 
@@ -44,4 +44,6 @@ Comment créer un projet sur eclipse?
 [3]: http://dl.dropbox.com/u/14582957/iloo/03.png
 [4]: http://dl.dropbox.com/u/14582957/iloo/04.png
 [5]: http://dl.dropbox.com/u/14582957/iloo/05.png
+[6]: http://dl.dropbox.com/u/14582957/iloo/06.png
+[7]: http://http://www.assembla.com/
 
