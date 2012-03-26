@@ -9,7 +9,7 @@ public interface IGame {
     
     public void undo();
     
-    public boolean play(Position position);
+    public Iterable<Position> play(Position position);
     
     public int getPositionValue(Position position);
     

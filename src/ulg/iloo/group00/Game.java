@@ -11,8 +11,8 @@ public class Game implements IGame {
     }
 
     @Override
-    public boolean play(Position position) {
-        return true;
+    public Iterable<Position> play(Position position) {
+        return null;
     }
 
     @Override
