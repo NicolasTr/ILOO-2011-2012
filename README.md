@@ -34,7 +34,11 @@ Comment créer un projet sur netbeans?
 Comment créer un projet sur eclipse?
 ------------------------------------
 
-1. Créer un projet java
-2. Ajouter le dossier avec les sources ("link source" dans les options du projet)
-3. Créer un "Ant builder" dans les options du projet (Utilisez le fichier build.xml et votre dépôt git)
+1. [Créer un projet java][1]
+2. [Ajouter le dossier avec les sources ("link source" dans les options du projet)][2]
+3. [Créer un "Ant builder" dans les options du projet (Utilisez le fichier build.xml et votre dépôt git)][3]
+
+[1]: http://dl.dropbox.com/u/14582957/iloo/eclipse/01.png
+[2]: http://dl.dropbox.com/u/14582957/iloo/eclipse/02.png
+[3]: http://dl.dropbox.com/u/14582957/iloo/eclipse/03.png
 
