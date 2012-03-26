@@ -6,7 +6,7 @@ public class Othello {
         
         if(args.length == 0) {
             args = new String[]{
-                "ulg.iloo.group01.GUI",
+                "ulg.iloo.group00.GUI",
                 "ulg.iloo.group00.Game",
                 "ulg.iloo.group00.ComputerPlayer",
                 "ulg.iloo.group00.ComputerPlayer"
