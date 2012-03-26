@@ -39,6 +39,10 @@ Comment créer un projet sur eclipse?
 2. [Ajouter le dossier avec les sources ("link source" dans les options du projet)][2]
 3. [Créer un "Ant builder" dans les options du projet (Utilisez le fichier build.xml et votre dépôt git)][3]
 
+En cas de problème:
+
+4. [Ajouter le fichier jar au classpath du projet][8]
+
 [1]: http://dl.dropbox.com/u/14582957/iloo/01.png
 [2]: http://dl.dropbox.com/u/14582957/iloo/02.png
 [3]: http://dl.dropbox.com/u/14582957/iloo/03.png
@@ -46,4 +50,5 @@ Comment créer un projet sur eclipse?
 [5]: http://dl.dropbox.com/u/14582957/iloo/05.png
 [6]: http://dl.dropbox.com/u/14582957/iloo/06.png
 [7]: http://http://www.assembla.com/
+[6]: http://dl.dropbox.com/u/14582957/iloo/08.png
 
