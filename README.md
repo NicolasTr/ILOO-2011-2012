@@ -27,9 +27,10 @@ Comment créer un projet sur netbeans?
 -------------------------------------
 
 1. Renommer le fichier build.xml en build2.xml
-2. Créer un projet java dans netbeans (avec sources existantes)
+2. [Créer un projet java dans netbeans (avec sources existantes)][4]
 3. Supprimer le fichier build.xml de netbeans
 4. Renommer le fichier build2.xml en build.xml
+5. [Ajouter les sources][5]
 
 Comment créer un projet sur eclipse?
 ------------------------------------
@@ -38,7 +39,9 @@ Comment créer un projet sur eclipse?
 2. [Ajouter le dossier avec les sources ("link source" dans les options du projet)][2]
 3. [Créer un "Ant builder" dans les options du projet (Utilisez le fichier build.xml et votre dépôt git)][3]
 
-[1]: http://dl.dropbox.com/u/14582957/iloo/eclipse/01.png
-[2]: http://dl.dropbox.com/u/14582957/iloo/eclipse/02.png
-[3]: http://dl.dropbox.com/u/14582957/iloo/eclipse/03.png
+[1]: http://dl.dropbox.com/u/14582957/iloo/01.png
+[2]: http://dl.dropbox.com/u/14582957/iloo/02.png
+[3]: http://dl.dropbox.com/u/14582957/iloo/03.png
+[4]: http://dl.dropbox.com/u/14582957/iloo/04.png
+[5]: http://dl.dropbox.com/u/14582957/iloo/05.png
 
