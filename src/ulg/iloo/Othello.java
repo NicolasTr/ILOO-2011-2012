@@ -6,11 +6,15 @@ public class Othello {
         
         if(args.length == 0) {
             args = new String[]{
-                "ulg.iloo.group00.GUI",
+                "ulg.iloo.group01.GUI",
                 "ulg.iloo.group00.Game",
                 "ulg.iloo.group00.ComputerPlayer",
                 "ulg.iloo.group00.ComputerPlayer"
             };
+        }
+        
+        for(String arg : args) {
+        	System.out.println(arg);
         }
 
         IGUI gui = (IGUI)Class.forName(args[0]).newInstance();
@@ -20,6 +24,8 @@ public class Othello {
                 (IPlayer)Class.forName(args[3]).newInstance());
         
         gui.exec();
+        
+        System.out.println("test");
 
     }
 
