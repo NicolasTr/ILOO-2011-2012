@@ -48,4 +48,9 @@ public interface IGame {
      */
     public int winner();
     
+    /**
+     * Recommence le jeu
+     */
+     public void reset();
+    
 }
