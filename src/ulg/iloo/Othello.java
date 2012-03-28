@@ -15,8 +15,8 @@ public class Othello {
         
         System.out.println("GUI  : " + args[0]);
         System.out.println("Game : " + args[1]);
-        System.out.println("IA 1 : " + args[2]);
-        System.out.println("IA 2 : " + args[3]);
+        System.out.println("IA1  : " + args[2]);
+        System.out.println("IA2  : " + args[3]);
 
         IGUI gui = (IGUI)Class.forName(args[0]).newInstance();
         gui.setGame((IGame)Class.forName(args[1]).newInstance());

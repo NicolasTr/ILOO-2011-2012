@@ -39,7 +39,26 @@
     </target>
 
     <target name="run" depends="jar">
-        <java jar="${jar.dir}/${ant.project.name}.jar" fork="true"/>
+        <!-- Arguments -->
+        <condition property="GUI" value="ulg.iloo.group00.GUI">
+            <not><isset property="GUI"/></not>
+        </condition> 
+        <condition property="Game" value="ulg.iloo.group00.Game">
+            <not><isset property="Game"/></not>
+        </condition> 
+        <condition property="IA1" value="ulg.iloo.group00.ComputerPlayer">
+            <not><isset property="IA1"/></not>
+        </condition> 
+        <condition property="IA2" value="ulg.iloo.group00.ComputerPlayer">
+            <not><isset property="${IA1}"/></not>
+        </condition>    
+        <!-- Programme -->
+        <java jar="${jar.dir}/${ant.project.name}.jar" fork="true">
+            <arg value="${GUI}"/>
+            <arg value="${Game}"/>
+            <arg value="${IA1}"/>
+            <arg value="${IA2}"/>
+        </java>
     </target>
     
     <target name="all" depends="jar, run" />

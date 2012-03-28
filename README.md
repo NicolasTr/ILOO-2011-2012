@@ -1,6 +1,30 @@
 README
 ======
 
+Comment compiler?
+-----------------
+
+Il vous suffit de lancer le programme ant (sans arguments) dans un terminal.
+
+Vous pouvez également utiliser un IDE. Les explications pour eclipse et netbeans sont plus bas dans ce document.
+
+Comment lancer le programme avec des arguments personnalisés?
+-------------------------------------------------------------
+
+En ligne de commande, vous pouvez utiliser "ant run -Dname=value" où "name" est le nom
+de l'argument et value sa valeur. 
+
+Arguments possibles:
+* GUI
+* Game
+* IA1
+* IA2
+
+Exemple:
+ant run -DGUI=ulg.iloo.group00.GUI -DGame=ulg.iloo.group00.Game -DIA1=ulg.iloo.group00.ComputerPlayer
+
+Comme vous travaillez sur votre propre version du projet, vous pouvez également changer les arguments par défaut dans le main.
+
 Comment créer un dépôt git pour mon groupe?
 -------------------------------------------
 

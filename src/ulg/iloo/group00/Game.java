@@ -35,4 +35,9 @@ public class Game implements IGame {
         return IGame.BLACK;
     }
     
+    @Override
+    public void reset() {
+    
+    }
+    
 }
