@@ -10,19 +10,19 @@ public class Position {
         this.row = row;
     }
     
-    char getCol() {
+    public char getCol() {
         return this.col;
     }
     
-    int  getRow() {
+    public int getRow() {
         return this.row;
     }
     
-    void setCol(char col) {
+    public void setCol(char col) {
         this.col = col;
     }
 
-    void setRow(int row) {
+    public void setRow(int row) {
         this.row = row;
     }
     
