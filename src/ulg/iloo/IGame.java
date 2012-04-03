@@ -16,6 +16,7 @@ public interface IGame {
      * Joue la couleur getTurn() à la position @param position
      *
      * @return Les positions qui ont été modifiées (inclus le coup joué)
+     *         null si rien n'a été modifié (coup invalide ou jeu terminé)
      */
     public Iterable<Position> play(Position position);
     
