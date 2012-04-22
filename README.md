@@ -47,7 +47,7 @@ Commment partager mon code avec les autres groupes?
 Le premier argument doit être le type de groupe (Game ou GUI)
 Le second argument doit être le groupe (groupxx)
 
-Sur Windows, je vous conseille [msygit][9]. Ant n'est pas inclus dedans, le script ne compilera donc pas automatiquement le programme avant de l'envoyer. Pensez donc à compiler avant de lancer le script.
+Attention: Le script ne fonctionne pas correctement sur Windows.
 
 Comment créer un projet sur netbeans?
 -------------------------------------
