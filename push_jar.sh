@@ -16,7 +16,7 @@ tempdir=`mktemp -d`
 git clone git@github.com:NicolasTr/ILOO-2011-2012.git $tempdir
 
 # Ajoute le .jar
-ant jar
+ant public-jar
 cp "build/jar/Projet ILOO 2011-2012.jar" $tempdir/lib/$group_type/$group.jar
 
 # Effectue le commit
