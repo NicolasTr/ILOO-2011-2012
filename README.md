@@ -25,6 +25,15 @@ ant run -DGUI=ulg.iloo.group00.GUI -DGame=ulg.iloo.group00.Game -DIA1=ulg.iloo.g
 
 Comme vous travaillez sur votre propre version du projet, vous pouvez également changer les arguments par défaut dans le main.
 
+Classes utilisables:
+* (GUI) ulg.iloo.group01.GUI
+* (GUI) ulg.iloo.group04.GameMaster
+* (Game) ulg.iloo.group03.Game
+* (Game) ulg.iloo.group06.Game
+* (IA) ulg.iloo.group03.ComputerPlayer
+* (IA) ulg.iloo.group06.ComputerPlayer
+* ??? (<= Vous pouvez ocmpléter!)
+
 Comment créer un dépôt git pour mon groupe?
 -------------------------------------------
 
