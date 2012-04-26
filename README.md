@@ -32,7 +32,7 @@ Classes utilisables:
 * (Game) ulg.iloo.group06.Game
 * (IA) ulg.iloo.group03.ComputerPlayer
 * (IA) ulg.iloo.group06.ComputerPlayer
-* ??? (<= Vous pouvez ocmpléter!)
+* ??? (<= Vous pouvez compléter!)
 
 Comment créer un dépôt git pour mon groupe?
 -------------------------------------------
